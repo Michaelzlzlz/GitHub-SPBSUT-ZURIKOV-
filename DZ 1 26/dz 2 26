@@ -22,5 +22,6 @@ int main()
     {
         printf("addres: %d", str_chr(a, b));
     }
+    else {printf("Error");}
     return 0;
 }
