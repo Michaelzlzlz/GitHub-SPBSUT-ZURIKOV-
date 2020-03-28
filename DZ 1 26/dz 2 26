@@ -14,9 +14,9 @@ char *str_chr(char *s, char c)
 int main()
 {
     char a[10] = {0},b;
-    printf("Vvedite stroku");
+    printf("Vvedite stroku:\n");
     gets(a);
-    printf("Vvedite simvol");
+    printf("Vvedite simvol:\n");
     b = getchar();
     if (str_chr(a, b) != 0) 
     {
